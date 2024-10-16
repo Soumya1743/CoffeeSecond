@@ -1,0 +1,395 @@
+.home{
+    background: url('./back.jpg');
+    width: 100%;   
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#home{
+    margin-left: 22rem;
+}
+.logo{
+    height: 9rem;
+    cursor: pointer;
+    mix-blend-mode: exclusion;
+}
+.logo:hover{
+    mix-blend-mode: color-dodge;
+}
+.heading{
+    font-size: 5.5rem;
+    color: rgb(71, 69, 69);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50;
+    letter-spacing: 1rem;
+    background: linear-gradient(black, brown);
+    /* background: linear-gradient(black, #B8001F, brown, white, white); */
+    color: transparent;
+    -webkit-background-clip: text;
+    filter: drop-shadow(0px 0px 20px black);
+}
+.heading:hover{
+    background: linear-gradient(black, brown, white, white);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.image{
+    width: 13rem;
+    cursor: pointer;
+    mix-blend-mode:exclusion;
+}
+.image:hover{
+    /* filter:drop-shadow(10px 10px 20px white); */
+    mix-blend-mode:color-dodge;
+}
+.shop_here{
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    background: transparent;
+    box-shadow: 0px 0px 30px gray inset;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.shop_here:hover{
+    background-color: rgb(152, 120, 77);
+    box-shadow: 0px 0px 30px white inset;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+#para{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+#para:hover{
+    color: black;
+    transition: all 1s ease-in-out;
+}
+
+
+.banner1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.banner1_heading{
+    color: rgb(71, 69, 69);
+    font-weight: 600;
+    font-size: 3rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner1_quote{
+    font-weight: 100;
+    font-size: 1.5rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner2{
+    display: flex;
+    cursor: pointer;
+}
+#banner2{
+    width: max-content;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.banner2_heading{
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.banner2_quote{
+    font-weight:100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url('./banner3.webp');
+}
+.banner3_heading{
+    font-weight: 400;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    letter-spacing: 0.1rem;
+}
+.banner3_quote{
+    font-weight: 100;
+    font-size: 1.5rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.coffee_image1{
+    width: 25rem;
+    margin: 1rem;
+}
+.banner3_1{
+    display: flex;
+}
+.banner3_1_heading{
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.banner3_1_quote{
+    font-weight:100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner4{
+    text-align: center;
+    background-color: black;
+}
+#banner4{
+    padding: 9rem;
+}
+#banner5{
+    display: flex;
+    justify-content: center;
+}
+.banner5_1{
+    text-align: center;
+    padding: 2rem;
+}
+.banner5_heading{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #cca183;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner5_heading1{
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.banner5_quote{
+    font-weight:100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-simple-and-beautiful-fresh-watercolor-shade-blue-background-image_260790.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 6rem;
+}
+
+
+.banner6_heading{
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.banner6_quote{
+    font-size: 2rem;
+    font-weight:100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner6_1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#banner6_1{
+    padding: 3rem;
+}
+
+.coffee_bag{
+    width: 15rem;
+    mix-blend-mode: darken;
+}
+.banner6_1_heading{
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.banner6_1_price{
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner7{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.banner7_heading{
+    font-weight: 400;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.banner7_quote{
+    font-size: 1.5rem;
+    font-weight:100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner7_containeer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block1{
+    width: 22.5rem;
+    height: 18rem;
+    padding: 0.4rem;
+}
+
+
+.display{
+    display: none;
+}
+.display1{
+    cursor: pointer;
+}
+.display1:hover .display{
+    display: block;
+}
+
+
+.main_logo{
+    width: 10rem;
+    mix-blend-mode: exclusion;
+}
+.main_logo:hover{
+    mix-blend-mode: color-dodge;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.container22{
+    display: none;
+}
+
+
+@media screen and (max-width: 1220px){
+    .main1{
+        display: inline-block;
+    }
+    .container{
+        display: none;
+    }
+    .container22{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+
+    }
+    .container11{
+        float: right;
+        font-size: 2rem;
+        margin-right: 2rem;
+    }
+    .home{
+        width: max-content;
+    }
+    #banner1{
+        text-align: center;
+        margin-left: 12rem;
+    }
+    .banner2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 12rem;
+    }
+}
+@media screen and (max-width: 1330px){
+    .banner3{
+        width: 80rem;   
+    }
+    .banner3_1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .coffee_image1{
+        width: 40rem;
+        margin: 1rem;
+    }
+    .banner4{
+        width: 80rem;
+    }
+    .banner5{
+        width: 80rem;
+    }
+    #banner5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner5_1{
+        width: 30rem;
+    }
+}
+@media screen and (max-width: 500px){
+    #banner5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner5_1{
+        width: 40rem;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .banner6{
+        width: max-content;
+    }
+}
+
+
+@media only screen and (max-width: 1310px){
+    .banner7{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 50px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1330px){
+    .banner7{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 200px;
+        width: 100%;
+    }
+    .banner7_containeer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.footer{
+    background-color: black;
+}
+
+
+@media only screen and (max-width: 1320px){
+    .footer{
+        width:fit-content;
+        padding-right: 290px;
+    }
+}

@@ -1,0 +1,159 @@
+.about{
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/26/23/23/starbucks-1281880_1280.jpg');
+    background-size: cover;
+    height: 60vh;
+    margin-top: -55px;
+}
+.about_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about_heading{
+    text-align: center;
+    padding: 10rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 5rem;
+    letter-spacing: 1rem;
+    color: white;
+}
+
+.image_block{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.block10{
+    display: inline-block;
+    margin-left: 5rem;
+}
+.block11{
+    display: inline-block;
+    padding: 1rem;
+}
+.image1{
+    width: 40rem;
+}
+
+#nav1{
+    cursor: pointer;
+    padding: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+.robusta{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+}
+.quote{
+    width: 40rem;
+    margin-left: 27rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    font-variant: small-caps;
+    font-stretch: condensed;
+}
+.para1{
+    text-align: center;
+    width: 40rem;
+}
+
+.block12{
+    background: url('https://nissi-beach.com/wp-content/uploads/2016/05/Taverna-Nissi_eveningWedding_Nissi-Beach-Resort_Ayia-Napa_Cyprus.jpg');
+    height: 80vh;
+    background-size: cover;
+}
+.block12_heading{
+    color: rgb(67, 67, 67);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 8rem;
+    font-weight: 100;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+.block12_image{
+    width: 13rem;
+    cursor: pointer;
+    margin-left: 41rem;
+}
+
+#banner11{
+    display: flex;
+    justify-content: center;
+}
+.banner11_1{
+    text-align: center;
+    padding: 2rem;
+}
+.banner11_heading{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #cca183;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner11_heading1{
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1rem;
+}
+.banner11_quote{
+    font-weight:100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width: 1200px){
+    .about{
+        width: 1400px;   
+    }
+    .block10{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1235px){
+    .about{
+        width: 1350px;   
+    }
+    .block10{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:1330px){
+    .banner11{
+        width: 80rem;
+    }
+    #banner11{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner11_1{
+        width: 30rem;
+    }
+}
+@media only screen and (max-width: 500px){
+    #banner11{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner11_1{
+        width: 40rem;
+    }
+}
+
