@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "https://Soumya1743.github.io/CoffeeSecond",
   "name": "coffee",
   
   "version": "0.1.0",
@@ -38,6 +38,8 @@
   
     
   "start": "react-scripts start",
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d build",
   
     
   "build": "react-scripts build",
